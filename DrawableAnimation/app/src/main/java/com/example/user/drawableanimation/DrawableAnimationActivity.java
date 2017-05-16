@@ -7,7 +7,7 @@ import android.view.MotionEvent;
 import android.view.animation.Animation;
 import android.widget.ImageView;
 
-public class DrawableAnimationActivity extends AppCompatActivity {
+public class DrawableAnimationActivity extends ActionBarActivity {
     AnimationDrawable rocketAnimation;
 
     @Override
