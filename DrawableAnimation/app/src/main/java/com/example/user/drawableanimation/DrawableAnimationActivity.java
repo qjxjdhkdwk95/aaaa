@@ -10,11 +10,12 @@ import android.widget.ImageView;
 public class DrawableAnimationActivity extends ActionBarActivity {
     AnimationDrawable rocketAnimation;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawable_animation);
         ImageView rocketImage = (ImageView) findViewById(R.id.rocket_image);
+        rocketImage.setBackgroundResource(R.drawable.rocket);
      rocketAnimation = (AnimationDrawable) rocketImage.getBackground();
     }
 
